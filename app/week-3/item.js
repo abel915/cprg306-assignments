@@ -1,6 +1,5 @@
 import React from "react";
-import { items } from "./item-list";
-
+import Link from "next/link";       
 function Item({ name, quantity, category }) {
     return (
         <li className="p-4 mb-2 bg-blue-100 rounded shadow flex flex-col">
