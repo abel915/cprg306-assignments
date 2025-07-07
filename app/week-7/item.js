@@ -5,4 +5,4 @@ export default function Item({ name, quantity, category }) {
       <div className="text-sm">Buy {quantity} in {category}</div>
     </li>
   );
-}
+}   
